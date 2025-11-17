@@ -68,6 +68,9 @@ export default function Prodotti() {
                                             <h4 className="card-title">{prodotto.title}</h4>
                                             <p className="card-text">{prodotto.description}</p>
                                             <small>{prodotto.price}€</small>
+                                            <div>
+                                                <button className='btn btn-success btn-sm mt-4'>Aggiungi al carello</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
