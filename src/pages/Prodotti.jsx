@@ -26,7 +26,7 @@ export default function Prodotti() {
     return (
 
         <>
-            <Header />
+
 
             <main>
                 <div className='container'>
@@ -54,7 +54,7 @@ export default function Prodotti() {
                     </div>
                 </div>
             </main>
-            <Footer />
+
         </>
 
     );

@@ -7,7 +7,7 @@ export default function ChiSiamo() {
     return (
 
         <>
-            <Header />
+
 
             <div className="p-5 mb-4 bg-secondary-subtle rounded-3">
                 <div className="container-fluid py-5">
@@ -21,7 +21,7 @@ export default function ChiSiamo() {
                     </button>
                 </div>
             </div>
-            <Footer />
+
         </>
 
 
