@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/ChiSiamo" element={<ChiSiamo />} />
             <Route path="/Prodotti" element={<Prodotti />} />
-            <Route path="/ProdottoSingolo/:id" element={<ProdottoSingolo />} />
+            <Route path="/Prodotti/:id" element={<ProdottoSingolo />} />
           </Route>
 
         </Routes>

@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
+
 export default function ProdottoSingolo() {
-
     const { id } = useParams();
+    console.log(id);
 
-    useEffect(() => {
 
-    }, []);
+
 
 
 
