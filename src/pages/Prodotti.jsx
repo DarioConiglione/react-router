@@ -1,16 +1,24 @@
 import axios from 'axios';
+import { useState, useEffect, use } from 'react';
+
 export default function Prodotti() {
 
-    const api_products = 'https://fakestoreapi.com/products'
-
-    axios.get('https://fakestoreapi.com/products')
-        .then(response => {
-            console.log(response.data);
-        }).catch(error => {
-            console.error(error)
-        });
+    const [prodotti, setProdotti] = useState([])
 
 
+
+    useEffect(() => {
+        const api_products = 'https://fakestoreapi.com/products'
+
+        axios.get(api_products)
+            .then(response => {
+                console.log(response.data);
+                setProdotti(response.data)
+            }).catch(error => {
+                console.error(error)
+            });
+    }, []
+    )
 
 
     return (
@@ -50,9 +58,9 @@ export default function Prodotti() {
             <main>
                 <div className='cointainer'>
                     <div className='row row-cols-1 row-cols-md-3'>
-                        <div>
+                        <div className='col'>
                             {
-                                api_products.map((prodotto) => (
+                                prodotti.map((prodotto) => (
 
                                     <div className="card">
                                         <img className="card-img-top" src={prodotto.image} alt="Title" />
