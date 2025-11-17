@@ -55,7 +55,40 @@ export default function HomePage() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam dicta soluta at, perferendis ipsa officiis possimus iste dolor sequi debitis earum minus ea dolorum necessitatibus placeat iure obcaecati atque neque quia culpa magnam unde cum! Natus adipisci cupiditate sequi ducimus, facere earum fugiat porro aut repellendus beatae culpa libero ipsa minima nostrum illo molestias modi! Nemo qui blanditiis asperiores illum voluptatum culpa magni fugiat praesentium, veritatis sint rerum quaerat aspernatur temporibus, eveniet dolorum consequuntur autem iure exercitationem obcaecati harum tempore beatae quisquam nam. Laudantium autem voluptatem omnis, quia quidem architecto! Ipsa doloremque maxime neque est? Consectetur ab suscipit, at quidem esse obcaecati. Ullam illum cupiditate sed ut dolorem molestias fuga soluta consequatur quidem, voluptatum quia quae voluptatem suscipit pariatur facere, dolores vel, explicabo dignissimos! At dolorum blanditiis architecto doloribus repellat eius reprehenderit voluptatum nobis deserunt possimus accusamus, a dignissimos? Facilis sapiente iure totam maiores quae unde architecto, placeat maxime repudiandae qui voluptatibus cupiditate nobis porro quam mollitia accusantium obcaecati illum incidunt magnam. Aperiam molestiae omnis vero autem, est voluptas sit amet explicabo molestias quia a eius consequuntur reprehenderit! Ab non voluptatem cupiditate voluptas nam omnis eum earum! Quibusdam necessitatibus est suscipit fugiat debitis, impedit dolor? Rerum corporis totam pariatur!</p>
                 </div>
             </main>
-            <footer></footer>
+
+            <footer>
+
+                <div className="container mt-5">
+                    <div className="row row-cols-3">
+
+                        <div>
+                            <ul class="list-group list-group-numbered">
+                                <li class="list-group-item">Active item</li>
+                                <li class="list-group-item">Item</li>
+                                <li class="list-group-item">Disabled item</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul class="list-group list-group-numbered">
+                                <li class="list-group-item">Active item</li>
+                                <li class="list-group-item">Item</li>
+                                <li class="list-group-item">Disabled item</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul class="list-group list-group-numbered">
+                                <li class="list-group-item">Active item</li>
+                                <li class="list-group-item">Item</li>
+                                <li class="list-group-item">Disabled item</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </footer>
 
 
         </>
