@@ -47,7 +47,7 @@ export default function HomePage() {
                             examples below for how you can remix and restyle it to your liking.
                         </p>
                         <button className="btn btn-primary btn-lg" type="button">
-                            Example button
+                            Scopri le nostre offerte
                         </button>
                     </div>
                 </div>
