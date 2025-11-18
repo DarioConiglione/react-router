@@ -28,13 +28,15 @@ export default function ProdottoSingolo() {
     return (
 
         <>
-            <div className='col d-flex mt-4'>
-                <div className="card h-100 bg-light shadow-lg p-3">
-                    <img className="card-img-top w-50 mx-auto d-block" src={prodotto.image} alt="Title" />
-                    <div className="card-body">
-                        <h4 className="card-title">{prodotto.title}</h4>
-                        <p className="card-text">{prodotto.description}</p>
-                        <small>{prodotto.price}€</small>
+            <div className="container">
+                <div className='col d-flex mt-4'>
+                    <div className="card h-100 bg-light shadow-lg p-3">
+                        <img className="card-img-top w-50 mx-auto d-block" src={oggetti.image} alt="Title" />
+                        <div className="card-body">
+                            <h4 className="card-title">{oggetti.title}</h4>
+                            <p className="card-text">{oggetti.description}</p>
+                            <small>{oggetti.price}€</small>
+                        </div>
                     </div>
                 </div>
             </div>
