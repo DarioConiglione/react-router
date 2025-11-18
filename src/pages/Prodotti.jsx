@@ -1,7 +1,8 @@
 import axios from 'axios';
-import { useState, useEffect, use } from 'react';
-import Header from '../assets/components/Header';
-import Footer from '../assets/components/Footer';
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import ProdottoSingolo from './ProdottoSingolo';
+
 
 export default function Prodotti() {
 
@@ -42,7 +43,7 @@ export default function Prodotti() {
                                             <p className="card-text">{prodotto.description}</p>
                                             <small>{prodotto.price}€</small>
                                             <div>
-                                                <button className='btn btn-success btn-sm mt-4'>Aggiungi al carello</button>
+                                                <Link className='btn btn-primary mt-2' to={`/Prodotti/${ProdottoSingolo.id}`}>Visualizza</Link>
                                             </div>
                                         </div>
                                     </div>

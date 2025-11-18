@@ -1,13 +1,10 @@
-import Header from "../assets/components/Header";
-import Footer from '../assets/components/Footer';
+
 export default function HomePage() {
 
 
     return (
 
         <>
-
-            <Header />
 
             <main>
                 <div className="p-5 mb-4 bg-secondary-subtle rounded-3">
@@ -28,7 +25,6 @@ export default function HomePage() {
                 </div>
             </main>
 
-            <Footer />
 
 
         </>
