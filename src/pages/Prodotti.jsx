@@ -43,7 +43,7 @@ export default function Prodotti() {
                                             <p className="card-text">{prodotto.description}</p>
                                             <small>{prodotto.price}€</small>
                                             <div>
-                                                <Link className='btn btn-primary mt-2' to={`/Prodotti/${ProdottoSingolo.id}`}>Visualizza</Link>
+                                                <Link className='btn btn-primary mt-2' to={`/Prodotti/${prodotto.id}`}>Visualizza</Link>
                                             </div>
                                         </div>
                                     </div>
